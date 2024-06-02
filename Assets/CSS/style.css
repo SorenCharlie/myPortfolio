@@ -1,11 +1,82 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  margin: 0;
+  padding: 0;
+}
+
 .column {
     float: left;
   }
   
   .left {
-    width: 25%;
+    width: 15%;
   }
   
   .right {
-    width: 75%;
+    width: 85%;
   }
+
+  header {
+    height: 150px;
+    background-color: steelblue;
+  }
+
+  header h1 {
+    background-color: aquamarine;
+    padding: 10px 2px 2px 80px;
+    display: inline;
+    position: absolute;
+    top: -16px;
+  }
+
+  header h2 {
+    background-color: aquamarine;
+    display: inline;
+    padding: 5px 10px;
+    margin-right: 60px;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+  }
+
+  header ul {
+    float: right;
+    display: inline;
+
+  }
+
+  header ul {
+    margin-right: 60px;
+  }
+  
+  .hero-image {
+    height: 100px;
+    width: 100%;
+  }
+
+  ul li {
+    display: inline;
+    padding: 10px;
+  }
+
+  ul li a {
+    color: aquamarine;  
+  }
+
+  .left h1 {
+    border-right: 3px solid darkblue;
+    margin-right: 50px;
+  }
+
+  #about-me, #my-work, #contact-me {
+    padding: 50px;
+  }
+
+  .section-tile {
+    
+  }
+
+
+
+
