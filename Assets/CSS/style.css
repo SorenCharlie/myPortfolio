@@ -73,10 +73,21 @@ body {
     padding: 50px;
   }
 
-  .section-tile {
-    
+  .section-tile-top {
+    width: 600px;
+    height: 100px;
   }
 
+  .section-tile-left {
+    width: 250px;
+    height: 100px;
+    float: left;
+  }
 
+  .section-tile-right {
+    width: 250px;
+    height: 100px;
+    float: right;
+  }
 
 
